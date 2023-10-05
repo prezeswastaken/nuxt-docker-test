@@ -10,7 +10,7 @@ services:
     environment:
       - NUXT_PORT=3000
       - CHOKIDAR_USEPOLLING=true
-    command: 'bun run dev'
+    command: 'npm run dev'
     volumes:
       - ./:/app
     networks:
